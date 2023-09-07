@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for the transactions app",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "cors": "^2.8.5"
+    // Add other backend dependencies here if needed
+  },
+  "scripts": {
+    "start": "node server.js"
+    // Add other scripts as needed
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
