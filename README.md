@@ -15,3 +15,15 @@ To run the project locally, follow these steps:
 ```bash
 cd backend
 npm install
+
+Open your web browser and access the app at http://localhost:3000.
+Backend
+The backend is built using Node.js with Express. It provides API endpoints for fetching transactions and exporting data to CSV.
+
+Frontend
+The frontend is built using React. It allows you to filter transactions by status and search by customer name, view data in a table, and export data to a CSV file.
+
+Usage
+Use the dropdown to filter transactions by status (initiated, authorized, successful, returned, canceled).
+Use the search input to search for transactions by customer name.
+Click the "Export to CSV" button to export the displayed data to a CSV file.
